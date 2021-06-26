@@ -14,7 +14,8 @@
   "module": "./index.js",
   "exports": "./index.js",
   "browser": {
-    "node-fetch": false
+    "node-fetch": false,
+    "abort-controller": false
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "node": ">=12"
   },
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "abort-controller": "^3.0.0"
   }
 }
