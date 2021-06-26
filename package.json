@@ -1,0 +1,31 @@
+{
+  "name": "@js-bits/fetch",
+  "version": "0.0.1",
+  "description": "Cross-environment (nodejs/web) fetch API",
+  "keywords": [
+    "javascript",
+    "fetch",
+    "api",
+    "web",
+    "node",
+    "browser"
+  ],
+  "type": "module",
+  "module": "./index.js",
+  "exports": "./index.js",
+  "browser": {
+    "node-fetch": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-bits/fetch"
+  },
+  "author": "https://github.com/apolo-gh",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
