@@ -1,8 +1,8 @@
 # Cross-environment (nodejs/web) fetch APi
 
-This package exports `window.fetch` object in a browser and `node-fetch` module in a Node.js environment. Which is helpful when you develop a package compatible with both environments and use `fetch` for HTTP requests. Allows to avoid conditional imports.
+This package exports `window.fetch` object in a browser and [node-fetch](https://www.npmjs.com/package/node-fetch) module in a Node.js environment. Which is helpful when you develop a package compatible with both environments and use `fetch` for HTTP requests. Allows to avoid conditional imports.
 
-Also exports `AbortController` for both environments.
+Also exports `AbortController` ([abort-controller](https://www.npmjs.com/package/abort-controller) module for Node.js) for both environments.
 
 ## Installation
 
@@ -34,6 +34,5 @@ fetch('http://example.com/movies.json')
 
 ## Notes
 
-- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-- [node-fetch](https://www.npmjs.com/package/node-fetch)
-- [abort-controller](https://www.npmjs.com/package/abort-controller)
+- Minimal size (bytes) in a browser since [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is natively supported. Does not include any polyfills, which means that Internet Explorer is not supported.
+- Requires [ECMAScript modules](https://nodejs.org/api/esm.html) to be enabled in Node.js environment. Otherwise, compile into a CommonJS module.
