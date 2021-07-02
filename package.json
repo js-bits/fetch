@@ -49,7 +49,10 @@
       },
       {
         "displayName": "jsdom",
-        "testEnvironment": "jsdom"
+        "testEnvironment": "jsdom",
+        "globals": {
+          "fetch": {}
+        }
       }
     ]
   },
