@@ -24,6 +24,12 @@ Import where you need it:
 import fetch, { AbortController } from '@js-bits/fetch';
 ```
 
+or require for CommonJS:
+
+```javascript
+const { default: fetch, AbortController } = require('@js-bits/fetch');
+```
+
 ## How to use
 
 ```javascript
@@ -35,4 +41,3 @@ fetch('http://example.com/movies.json')
 ## Notes
 
 - Minimal size (bytes) in a browser since [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is natively supported. Does not include any polyfills, which means that Internet Explorer is not supported.
-- Requires [ECMAScript modules](https://nodejs.org/api/esm.html) to be enabled in Node.js environment. Otherwise, compile into a CommonJS module.
