@@ -1,5 +1,5 @@
-import fetch, { AbortController } from './index.js';
-// const { default: fetch, AbortController } = require('./dist/index.cjs');
+import { fetch, AbortController } from './index.js';
+// const { fetch, AbortController } = require('./dist/index.cjs');
 
 describe(`fetch`, () => {
   test('should be defined', () => {

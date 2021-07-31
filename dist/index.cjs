@@ -11,8 +11,7 @@ var nodeFetch__default = /*#__PURE__*/_interopDefaultLegacy(nodeFetch);
 var nodeAbortController__default = /*#__PURE__*/_interopDefaultLegacy(nodeAbortController);
 
 const abortController = typeof AbortController === 'undefined' ? nodeAbortController__default['default'] : AbortController;
-
-var index = typeof fetch === 'undefined' ? nodeFetch__default['default'] : fetch;
+const exportFetch = typeof fetch === 'undefined' ? nodeFetch__default['default'] : fetch;
 
 exports.AbortController = abortController;
-exports['default'] = index;
+exports.fetch = exportFetch;

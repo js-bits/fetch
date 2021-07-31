@@ -21,13 +21,13 @@ yarn add @js-bits/fetch
 Import where you need it:
 
 ```javascript
-import fetch, { AbortController } from '@js-bits/fetch';
+import { fetch, AbortController } from '@js-bits/fetch';
 ```
 
 or require for CommonJS:
 
 ```javascript
-const { default: fetch, AbortController } = require('@js-bits/fetch');
+const { fetch, AbortController } = require('@js-bits/fetch');
 ```
 
 ## How to use
