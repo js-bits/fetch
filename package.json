@@ -48,7 +48,7 @@
     "node-fetch": "^3.2.3"
   },
   "devDependencies": {
-    "@js-bits/formalinter": "^0.2.0",
+    "@js-bits/formalinter": "^0.2.1",
     "@types/jest": "^27.4.1",
     "husky": "^7.0.1",
     "jest": "^27.5.1",
