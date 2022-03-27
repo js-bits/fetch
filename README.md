@@ -40,5 +40,6 @@ fetch('http://example.com/movies.json')
 
 ## Notes
 
-- [v2](https://www.npmjs.com/package/@js-bits/fetch/v/2.0.0) of this package supports [v2](https://github.com/node-fetch/node-fetch/tree/2.x#readme) of [node-fetch](https://www.npmjs.com/package/node-fetch)
+- The package versions are alined with [node-fetch](https://www.npmjs.com/package/node-fetch) versions.
+- [v2](https://www.npmjs.com/package/@js-bits/fetch/v/2.0.0) of this package supports [v2](https://github.com/node-fetch/node-fetch/tree/2.x#readme) of [node-fetch](https://www.npmjs.com/package/node-fetch).
 - Minimal size (bytes) in a browser since [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is natively supported. Does not include any polyfills, which means that Internet Explorer is not supported.
