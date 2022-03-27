@@ -40,4 +40,5 @@ fetch('http://example.com/movies.json')
 
 ## Notes
 
+- v2 of this package supports v2 of [node-fetch](https://github.com/node-fetch/node-fetch/tree/2.x#readme)
 - Minimal size (bytes) in a browser since [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is natively supported. Does not include any polyfills, which means that Internet Explorer is not supported.
