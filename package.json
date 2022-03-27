@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "abort-controller": "^3.0.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^3.2.3"
   },
   "devDependencies": {
     "@js-bits/formalinter": "^0.1.2",
