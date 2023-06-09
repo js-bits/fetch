@@ -1,3 +1,4 @@
+/// <reference lib="DOM" />
 import nodeFetch from 'node-fetch';
 import nodeAbortController from 'abort-controller';
 
