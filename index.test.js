@@ -1,12 +1,12 @@
 import { fetch, AbortController } from './index.js';
 
-describe(`fetch`, () => {
+describe('fetch', () => {
   test('should be defined', () => {
     expect(fetch).toBeDefined();
   });
 });
 
-describe(`AbortController`, () => {
+describe('AbortController', () => {
   test('should be defined', () => {
     expect(AbortController).toBeDefined();
   });
