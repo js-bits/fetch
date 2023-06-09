@@ -2,8 +2,6 @@
 
 This package exports `window.fetch` object in a browser and [node-fetch](https://www.npmjs.com/package/node-fetch) module in a Node.js environment. Which is helpful when you develop a package compatible with both environments and use `fetch` for HTTP requests. Allows to avoid conditional imports.
 
-Also exports `AbortController` ([abort-controller](https://www.npmjs.com/package/abort-controller) module for Node.js) for both environments.
-
 ## Installation
 
 Install with npm:
@@ -21,7 +19,7 @@ yarn add @js-bits/fetch
 Import where you need it:
 
 ```javascript
-import { fetch, AbortController } from '@js-bits/fetch';
+import fetch from '@js-bits/fetch';
 ```
 
 ## How to use
@@ -37,4 +35,4 @@ fetch('http://example.com/movies.json')
 - The package versions are aligned with [node-fetch](https://www.npmjs.com/package/node-fetch) versions.
 - CommonJS module export removed since version 3
 - [version 2](https://www.npmjs.com/package/@js-bits/fetch/v/2.0.0) of this package supports [version 2](https://github.com/node-fetch/node-fetch/tree/2.x#readme) of [node-fetch](https://www.npmjs.com/package/node-fetch).
-- Minimal size (bytes) in a browser since [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is natively supported. Does not include any polyfills, which means that Internet Explorer is not supported.
+- Minimal size (bytes) in a browser since [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is natively supported. Does not include any polyfills.

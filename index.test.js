@@ -1,4 +1,4 @@
-import { fetch, AbortController } from './index.js';
+import fetch from './index.js';
 
 describe('fetch', () => {
   test('should be defined', () => {

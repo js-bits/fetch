@@ -33,7 +33,7 @@
     "node": ">=14.18"
   },
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose",
+    "test": "node --experimental-vm-modules --no-experimental-fetch node_modules/jest/bin/jest.js --verbose",
     "build": "rimraf ./dist && yarn build:dts",
     "build:dts": "tsc ./index.js --allowJs --emitDeclarationOnly --declaration --esModuleInterop --outDir dist",
     "test-coverage": "yarn test --coverage",
@@ -43,7 +43,6 @@
   },
   "dependencies": {
     "@types/node-fetch": "^2.6.4",
-    "abort-controller": "^3.0.0",
     "node-fetch": "^3.3.1"
   },
   "devDependencies": {
