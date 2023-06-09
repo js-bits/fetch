@@ -42,6 +42,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@types/node-fetch": "^2.6.4",
     "abort-controller": "^3.0.0",
     "node-fetch": "^3.3.1"
   },
