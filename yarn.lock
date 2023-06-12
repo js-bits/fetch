@@ -703,6 +703,11 @@
     prettier "^2.8.8"
     typescript "^4.8.4"
 
+"@js-bits/typedef-utils@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@js-bits/typedef-utils/-/typedef-utils-1.0.7.tgz#a1686391c0d3d338608ffe652b66c2c1d45e958a"
+  integrity sha512-vnJmtK4gG3yQe3nv1QGgxXSxGpnDbf7GzWSsTCYstf/LQf0XbuDsV2eslfeaYCJeNJCS1QoPXOUZxWKZehlh3Q==
+
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/eslint-scope-5-internals/-/eslint-scope-5-internals-5.1.1-v1.tgz#dbf733a965ca47b1973177dc0bb6c889edcfb129"
