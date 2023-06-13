@@ -22,6 +22,12 @@ Import where you need it:
 import fetch from '@js-bits/fetch';
 ```
 
+or require for CommonJS:
+
+```javascript
+const fetch = require('@js-bits/fetch');
+```
+
 ## How to use
 
 ```javascript
@@ -33,6 +39,5 @@ fetch('http://example.com/movies.json')
 ## Notes
 
 - The package versions are aligned with [node-fetch](https://www.npmjs.com/package/node-fetch) versions.
-- CommonJS module export removed since version 3
 - [version 2](https://www.npmjs.com/package/@js-bits/fetch/v/2.0.0) of this package supports [version 2](https://github.com/node-fetch/node-fetch/tree/2.x#readme) of [node-fetch](https://www.npmjs.com/package/node-fetch).
 - Minimal size (bytes) in a browser since [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is natively supported. Does not include any polyfills.
